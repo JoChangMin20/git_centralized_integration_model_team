@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public void Qwer_good{
     public static double performOperation(double num1, double num2, char operator) {
         double result = 0.0;
@@ -25,7 +27,7 @@ public void Qwer_good{
 
         return result;
 
-public static void getInputAndCalculate() {
+	public static void getInputAndCalculate() {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("간단한 콘솔 계산기 프로그램");
